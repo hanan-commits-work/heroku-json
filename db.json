@@ -1,16 +1,23 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "email":"hanan.tahir@trivor.com" ,
+      "password":{"iv": "5e1c40ec9184948c8d2c216c4c13917e", "content": "911d44d1862fb945"},
+      "id": 1
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
+      "id" : 2,
+      "email":"ovais.ashraf@trivor.com" ,
+      "password":{"iv": "5e1c40ec9184948c8d2c216c4c13917e", "content": "960a4bd99b2fb945"}
+    },  
+    {
+    "id": 3,
+    "email":"tony.nitchov@gmail.com" ,
+    "password":{"iv": "5e1c40ec9184948c8d2c216c4c13917e", "content": "8d1344c9d92cb842"}
+    },
+    {
+    "id": 4,
+    "email":"ian@co-surv.com" ,
+    "password":{"iv": "5e1c40ec9184948c8d2c216c4c13917e", "content": "901d4481da2dbf43"}   }
   ]
 }
